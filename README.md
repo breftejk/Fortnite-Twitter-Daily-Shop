@@ -40,7 +40,7 @@
     </li>
     <li><a href="#design-of-the-store">Design of the store</a></li>
     <li><a href="#text-displayed-with-the-store">Text displayed with the store</a></li>
-    <li><a href="#what-are-you-waiting-for?">Create Your Autoshop now</a></li>
+    <li><a href="#what-are-you-waiting-for">Create Your Autoshop now</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -107,7 +107,7 @@ You can define it too. You can use *{dayNumber}*, *{monthNumber}* and *{fullYear
 [![Product Name Screen Shot][product-screenshot3]](https://fortniteassistant.xyz/shopimage.png)
 
 
-## What are you waiting for?
+## What are you waiting for
 [Setup your automated Twitter store now!](https://fortniteassistant.xyz/autoshop)
 
 <!-- CONTACT -->
