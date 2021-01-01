@@ -43,8 +43,8 @@
     <li><a href="#design-of-the-store">Design of the store</a></li>
     <li><a href="#text-displayed-with-the-store">Text displayed with the store</a></li>
     <li><a href="#what-are-you-waiting-for">Create Your Autoshop now</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
