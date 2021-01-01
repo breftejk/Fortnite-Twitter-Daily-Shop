@@ -15,6 +15,8 @@
     <a href="https://github.com/breftejk/Fortnite-Twitter-Daily-Shop/issues">Report Bug</a>
     ·
     <a href="https://github.com/breftejk/Fortnite-Twitter-Daily-Shop/issues">Request Feature</a>
+    ·
+    <a href="https://fortniteassistant.xyz/help">Join our Discord Server</a>
   </p>
 </p>
 
@@ -77,7 +79,9 @@ How to create your auto bot? We'll describe it here step-by-step.
 ### Twitter Application
 
 
-For the bot to function, you need to create your Twitter Application on [Twitter Developer Portal](https://developer.twitter.com/apps). It is not difficult, and it is described e.g. here:<br>
+For the bot to function, you need to create your Twitter Application on [Twitter Developer Portal](https://developer.twitter.com/apps). 
+
+It is not difficult, and it is described e.g. here:<br>
 https://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/
 
 ### Access Type
@@ -99,15 +103,19 @@ Now one of the most important things. What does the shop look like?
 [![Product Name Screen Shot][product-screenshot2]](https://fortniteassistant.xyz/Eqhjc6zXUAA5aOS.png)
 
 
-Lovely, right?<br>
+Lovely, right?
+
 You can **set the creator code** from the bottom on the right **to your own completely for free**.
 
 ## Text displayed with the store
+
 You can define it too. You can use *{dayNumber}*, *{monthNumber}* and *{fullYearNumber}* with shop text to replace them with day, month or year numbers when shop is published.
+
 [![Product Name Screen Shot][product-screenshot3]](https://fortniteassistant.xyz/shopimage.png)
 
 
 ## What are you waiting for
+
 [Setup your automated Twitter store now!](https://fortniteassistant.xyz/autoshop)
 
 <!-- CONTACT -->
