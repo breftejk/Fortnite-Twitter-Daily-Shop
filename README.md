@@ -1,24 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -31,7 +10,7 @@
     Want to create your own Fortnite Store for your Twitter profile? From now on, you don't need a computer running at night, or even your VPS! All you need to do is log in to the website and set it up.  The store will always appear at 00:00 UTC.
     <br />
     <br />
-    <a href="https://fortniteassistant.xyz/autoshop/">Lemme check</a>
+    <a href="https://fortniteassistant.xyz/autoshop/">Create your Autoshop</a>
     ·
     <a href="https://github.com/breftejk/Fortnite-Twitter-Daily-Shop/issues">Report Bug</a>
     ·
@@ -54,16 +33,16 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#twitter-application">Twitter Application</a></li>
+        <li><a href="#access-type">Access Type</a></li>
+        <li><a href="#final-configuration">Final configuration</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#design-of-the-store">Design of the store</a></li>
+    <li><a href="#text-displayed-with-the-store">Text displayed with the store</a></li>
+    <li><a href="#what-are-you-waiting-for?">Create Your Autoshop now</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -72,102 +51,73 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://fortniteassistant.xyz/fnassistantautoshoppage.png)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Project **Fortnite Assistant: Twitter Autoshop** was created to simplify the lives of others :smile:
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* You do not need to have your VPS or have a computer turned on for the store to be published after its change,
+* Your auto shop automatically changes and publishes to your profile without even having to think about whether it will work. Because it will work.
+* You don't need programming knowledge and installing unnecessary scripts on your computer. Just go to the website and configure it. That's it. Yes.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Of course, the store is kept up-to-date and looking good at all times.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+I know no one asked. But the project was built with Node.js<br>
+It's uptime is around 99.99%. If we find a bug, we try to fix it immediately.
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+How to create your auto bot? We'll describe it here step-by-step.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Twitter Application
 
 
+For the bot to function, you need to create your Twitter Application on [Twitter Developer Portal](https://developer.twitter.com/apps). It is not difficult, and it is described e.g. here:<br>
+https://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### Access Type
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+For the application to function properly, you must select **READ & WRITE access**. The bot needs to publish the store on your profile, so it needs Write access.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Final configuration
 
+Finally, you need to do the configuration on the bot project page. You can set here:
+* Your Twitter application tokens (how to get them is described [in this article](https://iag.me/socialmedia/how-to-create-a-twitter-app-in-8-easy-steps/))
+* Store language (If you don't see yours there, [write to us](https://fortniteassistant.xyz/help) and propose it)
+* Custom text displayed when publishing the store. You can also put a replacer there for the day, month and year
+* Your own CREATOR'S CODE (for free!)
 
+## Design of the store
 
-<!-- ROADMAP -->
-## Roadmap
+Now one of the most important things. What does the shop look like?
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+[![Product Name Screen Shot][product-screenshot2]](https://fortniteassistant.xyz/Eqhjc6zXUAA5aOS.png)
 
 
+Lovely, right?<br>
+You can **set the creator code** from the bottom on the right **to your own completely for free**.
 
-<!-- LICENSE -->
-## License
+## Text displayed with the store
+You can define it too. You can use *{dayNumber}*, *{monthNumber}* and *{fullYearNumber}* with shop text to replace them with day, month or year numbers when shop is published.
+[![Product Name Screen Shot][product-screenshot3]](https://fortniteassistant.xyz/shopimage.png)
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
-
+## What are you waiting for?
+[Setup your automated Twitter store now!](https://fortniteassistant.xyz/autoshop)
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Fortnite Assistant - [@fnassistantxyz](https://twitter.com/fnassistantxyz) - fortniteassistantxyz@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Discord: [Fortnite Assistant](https://fortniteassistant.xyz/help)
+
+Project Link: [https://github.com/breftejk/Fortnite-Twitter-Daily-Shop](https://github.com/breftejk/Fortnite-Twitter-Daily-Shop)
 
 
 
@@ -203,4 +153,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://fortniteassistant.xyz/fnassistantautoshoppage.png
+[product-screenshot2]: https://fortniteassistant.xyz/Eqhjc6zXUAA5aOS.png
+[product-screenshot3]: https://fortniteassistant.xyz/shopimage.png
